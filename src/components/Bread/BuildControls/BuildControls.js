@@ -26,7 +26,7 @@ const control = [
 const BuildControls = (props)=>{
   return(
     <div className={classes.BuildControls}>
-      <h2>TOTAL PRICE: {props.price}</h2>
+      <h1>TOTAL PRICE: {props.price}</h1>
       {control.map(c =>{
         return <BuildControl
         key={c.Label}
